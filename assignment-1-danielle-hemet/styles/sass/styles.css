@@ -270,9 +270,19 @@ ul a {
   width: 600px;
 }
 
+/* STYLING Hand crafted section */
 
+.handcrafted {
+  background-color: #500801;
+  height: 50vh;
+}
 
-
+h2 {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 54px;
+  margin-top: 50px;
+  text-align: center;
+}
 
 
 
