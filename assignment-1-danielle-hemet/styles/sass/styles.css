@@ -226,7 +226,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: 700px;
   width: 100%;
   background-color: #815600;
 }
@@ -236,7 +236,7 @@ h1 {
   font-size: 90px;
   text-align: right;
   width: 45%;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 .wrapper div {
@@ -272,15 +272,14 @@ ul a {
 
 /* STYLING Hand crafted section */
 
-.handcrafted {
+section.handcrafted {
   background-color: #500801;
-  height: 50vh;
+  height: 500px;
 }
 
 h2 {
   font-family: "Petit Formal Script", cursive;
   font-size: 54px;
-  margin-top: 50px;
   text-align: center;
 }
 
