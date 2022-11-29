@@ -68,6 +68,11 @@ ul a {
   font-size: 20px;
 }
 
+ul a:hover,
+ul a:focus {
+  font-weight: 400;
+}
+
 /* STYLING SOCIALS ICONS */
 .socials {
   display: inline-flex;
@@ -167,6 +172,71 @@ h2 {
 .gallery li {
   margin-bottom: 100px;
 }
+
+/* Toggle/Hamburger Menu Styling */
+.toggle {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 21px;
+}
+
+.toggle .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 10px; 
+}
+
+/* MOBILE (480px) MEDIA QUERIES */
+@media (max-width: 480px) {
+  .toggle {
+    display: flex;
+  }
+
+  ul li {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  h1 {
+    font-size: 55px;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-right: 0px;
+    padding-top: 25px;
+  }
+
+  .header img {
+    height: 75%;
+    width: 90%;
+    margin-right: 0;
+    position: absolute;
+    bottom: -75px;
+    left: -50px;
+  }
+
+  header {
+    height: 125vh;
+    max-height: 700px;
+    width: 100%;
+    background-color: #815600;
+}
+
+}
+
 
 
 /* * {outline: 1px solid red;} */
