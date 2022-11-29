@@ -233,7 +233,74 @@ h2 {
     max-height: 700px;
     width: 100%;
     background-color: #815600;
-}
+  }
+
+  .handcrafted h2 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 0;
+  }
+
+  .imagecontainer {
+    margin-top: 60px;
+  }
+  
+  .imagecontainer img {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: none;
+    object-position: 30% 30%;
+  }
+
+  .handcrafted {
+    padding: 0px;
+    margin: 0;
+    min-height: 165vh;
+  }
+
+  .handcrafted .wrapper {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .button {
+    padding: 10px 25px;
+    margin-left: 115px;
+    margin-top: 30px;
+  }
+
+  .gallery h2 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 44px;
+  }
+  .gallery ul {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .gallery ul li {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 30%;
+  }
+
+  .gallery li img {
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
 
 }
 
